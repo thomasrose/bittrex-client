@@ -1,0 +1,12 @@
+{
+    "name": "thomasrose/bittrex-client",
+    "description": "API client for Bittrex",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {"BittrexClient\\": "src"}
+    }
+}
